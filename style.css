@@ -37,8 +37,9 @@ align-items: center;
 
 .hero-text{
     width: 100%;
-    margin: 20px;
+    margin: 10px;
     top: 0;
+
 }
 
 .hero-text h2{
