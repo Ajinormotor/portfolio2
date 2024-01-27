@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E2EAE2;
+
+}
+
+.first__header{
+    display: none;
+    
+}
+
+.logo1{
+    display: none;
+}
+
+
+.hero{
+    width: 83%;
+    height: 70vh;
+align-items: center;
+justify-content: center;
+top: 6%;
+transform: translateX(10%);
+text-align: center;
+z-index: 3;
+}
+
+
+.hero__wrapper{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Image/medlas.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.hero__search{
+    border: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 12px;
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+}
+
+
+
+.herosale__btn{
+    border-radius: 10px;
+background: var(--Rectangle-3, #E0813B);
+}
+
+.homesale__box{
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.homesale__img:hover{
+    transform: translateX(10px);
+}
+
+.homesale__text:hover{
+    color: white;
+    background: black;
+}
+.rental{
+    width: 100%;
+}
+
+.rental__wrapper{
+    align-items: center;
+}
+.rental__text{
+    height: 381px;
+}
+.rental__image{
+    height: 100px;
+}
+
+.footer__wrapper{
+    width: 100%;
+justify-content: space-around;
+
+}
+
+.icon{
+    display: none;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+   
+}
+
+.iconis{
+    border-radius: 12px;
+   
+}
+
+.icons{
+    display: none;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+
+
+
+
+
+@media  only screen and (max-width:450px) {
+
+    .first__header{
+        display: flex;
+      
+    }
+
+    .logo1{
+        display: block;
+    }
+
+.header__wrapper{
+    position: absolute;
+    left: -400px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(187, 97, 97);
+    z-index: 4;
+}
+.navlink ul{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    display: none;
+}
+.side__menu ul{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+    .hero{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        transform: translateX(0%);
+    }
+    
+.hero__wrapper{
+    width: 100%;
+    left: 0px;
+}
+.hero__text {
+   top: 0;
+}
+
+.hero__text h1{
+    font-size: 25px;
+    
+}
+
+.hero__text p{
+    font-size: 20px;
+}
+.hero__search {
+    width: 95%;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+.home__sale{
+    width: 100%;
+}
+
+    .homesale__wrapper{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        width: 100%;
+    }
+
+    .homesale__box{
+        padding-top: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        width: 100%;
+       
+    }
+
+    .homesale__img:hover{
+        transform: translateX(10px);
+    }
+    
+    .homesale__text:hover{
+        color: white;
+        background: black;
+}
+.rental__wrapper{
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+}
+.rental__text{
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+
+.rental__image{
+    height: 101px;
+}
+
+.footer__wrapper{
+display: flex;
+flex-direction: column; 
+padding: 10px;
+margin: 0px;
+left: 0px;
+width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column; 
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    }
+
+    .footer__box{
+        width: 100%;
+    }
+    .socials li img {
+        font-size: 5px;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .icons{
+        margin-top: -45px;
+        display: block;
+       
+    }
+    
+}
